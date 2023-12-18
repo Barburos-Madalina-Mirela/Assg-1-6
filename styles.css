@@ -1,0 +1,78 @@
+body{
+  background-color:C2948A;
+}
+
+div{
+  background-color:39A78D;
+  padding:5px;
+  margin:10px;
+}
+.footer{
+  background-color:85B09A;
+  text-align:justify;
+}
+.content span{
+  text-align:center;
+  color:yellow;
+  font-weight:900;
+  font-size:24px;
+}
+p+p{
+  font-style:italic;
+}
+
+.content p{
+  text-align:justify;
+  
+}
+h4::before{
+  content: "Good morning";
+  color:blue;
+  font-weight:bold;
+}
+h5::after{
+  content: "Good Bye!";
+  color:blue;
+  font-weight:bold;
+}
+h3:hover{
+  color:gray;
+  font-style:italic;
+}
+a:link{
+  color:red;
+}
+a:visited{
+  color:black;
+}
+.vis{
+  visibility:hidden;
+}
+.block{
+  display: block;
+  font-style:italic;
+}
+.semi-visible{
+  opacity:0.5;
+}
+.inline {
+  display: inline;
+  font-style:italic;
+}
+img{
+  filter: grayscale(50%);
+  position: relative;
+  width:160px;
+  height:90x;
+  left:50px;
+  animation: image 5s;
+}
+img:hover{
+  width:240px;
+  height:135x;
+  
+}
+@keyframes image {
+  from {left:1000px;}
+  to {left:50px}
+}
