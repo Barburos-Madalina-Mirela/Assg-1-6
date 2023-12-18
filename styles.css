@@ -1,21 +1,21 @@
 body{
-  background-color:C2948A;
+  background-color:C0C0C0;
 }
 
 div{
-  background-color:39A78D;
+  background-color:ADD8E6;
   padding:5px;
   margin:10px;
 }
 .footer{
-  background-color:85B09A;
+  background-color:A52A2A;
   text-align:justify;
 }
 .content span{
   text-align:center;
   color:yellow;
   font-weight:900;
-  font-size:24px;
+  font-size:23px;
 }
 p+p{
   font-style:italic;
@@ -32,7 +32,7 @@ h4::before{
 }
 h5::after{
   content: "Good Bye!";
-  color:blue;
+  color:black;
   font-weight:bold;
 }
 h3:hover{
@@ -43,7 +43,7 @@ a:link{
   color:red;
 }
 a:visited{
-  color:black;
+  color:blue;
 }
 .vis{
   visibility:hidden;
@@ -62,8 +62,8 @@ a:visited{
 img{
   filter: grayscale(50%);
   position: relative;
-  width:160px;
-  height:90x;
+  width:166px;
+  height:98x;
   left:50px;
   animation: image 5s;
 }
